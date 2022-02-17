@@ -20,8 +20,8 @@ The language server will provide language capabilities for this added system for
 
 * [Completions](#completions)
 * [Symbol renaming](#symbol-renaming)
-* [Find all references](#find-all-references}
-* [Hover](hover)
+* [Find all references](#find-all-references)
+* [Hover](#hover)
 * [Navigation](#navigation)
 * [Diagnostics](#diagnostics)
 
