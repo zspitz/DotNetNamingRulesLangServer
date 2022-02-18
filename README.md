@@ -101,4 +101,4 @@ The last line in the sample should have a red squiggly underneath it, because th
 
 Missing required properties should also be recognized as errors.
 
-Warn on unused entities; for example, a symbol group never used in a naming rule.
+Warn on symbol groups or naming stles that are not used in any naming rule.
