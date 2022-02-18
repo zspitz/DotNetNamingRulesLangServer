@@ -100,3 +100,5 @@ Invoking "Find all references" on a specific name should return all property set
 The last line in the sample should have a red squiggly underneath it, because there are no property setters matching the `public_symbols` symbol group.
 
 Missing required properties should also be recognized as errors.
+
+Warn on unused entities; for example, a symbol group never used in a naming rule.
