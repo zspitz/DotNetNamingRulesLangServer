@@ -10,11 +10,11 @@ Conceptually, this system has three kinds of entities, depending on whether the 
 
 Entities are defined by one or more properties in the following syntax:
 
-```none
-<kind>.<title>.<propertyName> = <propertyValue>
+```ini
+<kind>.<entityName>.<propertyName> = <propertyValue>
 ```
 
-where `<kind>` is one of the above values, `<title>` is the name of the entity, and `<propertyName>` and `<propertyValue>` are specific to each entity kind.
+where `<kind>` is one of the above values, `<entityName>` is the name of the entity, and `<propertyName>` and `<propertyValue>` are specific to each entity kind.
 
 The language server will provide language capabilities for this added system for naming rules, as described below:
 
