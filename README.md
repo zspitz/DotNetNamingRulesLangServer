@@ -81,7 +81,7 @@ Question: should this affect only the current file, or .editorconfig files in th
 
 ## Find all references
 
-Invoking "Find all references" on a specific name should return all property setters with that kind+name, as well as all the places it's used in the value of a property setter.
+Invoking "Find all references" on a specific name should return all property setters with that kind+name -- from all glob patterns, but only the last one for any given glob pattern (because that's the resolved one) -- as well as all the places it's used in the value of a property setter.
 
 ## Hover
 
