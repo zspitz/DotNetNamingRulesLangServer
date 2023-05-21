@@ -24,6 +24,7 @@ The language server will provide language capabilities for this added system for
 * [Hover](#hover)
 * [Navigation](#navigation)
 * [Diagnostics](#diagnostics)
+* Outline
 
 Given the following sample:
 
@@ -101,4 +102,4 @@ The last line in the sample should have a red squiggly underneath it, because th
 
 Missing required properties should also be recognized as errors.
 
-Warn on symbol groups or naming stles that are not used in any naming rule.
+Warn on symbol groups or naming styles that are not used in any naming rule.
